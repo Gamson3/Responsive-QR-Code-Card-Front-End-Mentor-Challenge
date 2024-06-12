@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Outfit", sans-serif;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        /* background-color: #f2f2f2; */
+      }
+
+      #mainContainer {
+        background-color: #d5e1ef;
+        width: 100%;
+        height: 880px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .rectangle {
+        background-color: white;
+        width: 100%;
+        max-width: 320px;
+        height: 497px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .rectangle img {
+        width: 100%;
+        max-width: 288px;
+        height: 288px;
+        border-radius: 10px;
+        margin-top: 16px;
+      }
+
+      .rectangle h1 {
+        color: #1f314f;
+        font-size: 1.375rem; /* 22px */
+        text-align: center;
+        padding-top: 24px;
+        line-height: 1;
+        inline-size: 288px;
+      }
+
+      .rectangle p {
+        color: #7d889e;
+        font-size: 0.9375rem; /* 15px */
+        text-align: center;
+        padding-top: 24px;
+        line-height: 1;
+        inline-size: 256px;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 50px;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      /* Media query for smaller devices */
+      @media (max-width: 600px) {
+        .rectangle h1 {
+          font-size: 1.25rem; /* 20px */
+        }
+
+        .rectangle p {
+          font-size: 0.875rem; /* 14px */
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="mainContainer">
+      <div class="rectangle">
+        <img src="./images/image-qr-code.png" alt="A QR Code" />
+
+        <h1>Improve your front-end skills by building projects</h1>
+
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Gideon Gamson</a>.
+      </div>
+    </div>
+  </body>
+</html>
