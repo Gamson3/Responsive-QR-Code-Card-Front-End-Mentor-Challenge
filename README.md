@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Gamson3/Responsive-QR-Code-Card-Front-End-Mentor-Challenge)
-- Live Site URL: [live site URL here](https://gamson3.github.io/Responsive-QR-Code-Card-Front-End-Mentor-Challenge/)
+- Solution URL: [ Link to QR Code component solution](https://github.com/Gamson3/Responsive-QR-Code-Card-Front-End-Mentor-Challenge)
+- Live Site URL: [ Live QR Code component display](https://gamson3.github.io/Responsive-QR-Code-Card-Front-End-Mentor-Challenge/)
 
 ## My process
 
